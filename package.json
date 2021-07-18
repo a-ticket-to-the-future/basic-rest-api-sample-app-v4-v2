@@ -1,0 +1,17 @@
+{
+  "name": "basic-rest-api-sample-app-v4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node-dev app/app.js",
+    "connect":"sqlite3 app/db/database.sqlite3"
+  },
+  "author": "a-ticket-to-the-future",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2"
+  }
+}
